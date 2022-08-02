@@ -68,7 +68,7 @@ h2.pers2 {
     font-size: 30px;
     color: darkgreen;
 }
-button.verify2:link, button.verify:visited {
+button.verify2:link, button.verify2:visited {
     background-color: white;
     color: black;
     border: 2px solid green;
@@ -78,12 +78,12 @@ button.verify2:link, button.verify:visited {
     display: inline-block;
 }
 
-button.verify2:hover, button.verify:active {
+button.verify2:hover, button.verify2:active {
     background-color: green;
     color: white;
 }
 
-button.verify3:link, button.verify1:visited {
+button.verify3:link, button.verify3:visited {
     background-color: white;
     color: black;
     border: 2px solid red;
@@ -93,26 +93,11 @@ button.verify3:link, button.verify1:visited {
     display: inline-block;
 }
 
-button.verify3:hover, button.verify1:active {
+button.verify3:hover, button.verify3:active {
     background-color: red;
     color: white;
 }
-button.verify:link, button.verify:visited {
-    background-color: white;
-    color: black;
-    border: 2px solid green;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-button.verify:hover, button.verify:active {
-    background-color: green;
-    color: white;
-}
-
-button.verify4:link, button.verify1:visited {
+button.verify4:link, button.verify4:visited {
     background-color: white;
     color: black;
     border: 2px solid rgb(170, 170, 2);
@@ -122,7 +107,7 @@ button.verify4:link, button.verify1:visited {
     display: inline-block;
 }
 
-button.verify4:hover, button.verify1:active {
+button.verify4:hover, button.verify4:active {
     background-color: rgb(170, 170, 2);
     color: white;
 }
