@@ -1,11 +1,20 @@
 h1 {
     text-align: center;
     border: 3px solid;
+    color: brown;
+    border-color: coral;
+    padding: 10px;
 }
 h2.pers1 {
     text-decoration: underline;
     font-size: 30px;
     color: darkgreen;
+}
+
+h2.pers2 {
+    text-decoration: underline;
+    font-size: 30px;
+    color: darkslateblue;
 }
 
 button.verify:link, button.verify:visited {
@@ -38,15 +47,75 @@ button.verify1:hover, button.verify1:active {
     color: white;
 }
 
-h2.name {
-    color:red;
-
+button.verify2:link, button.verify2:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-h2.year {color:aqua;}
+
+button.verify2:hover, button.verify2:active {
+    background-color: green;
+    color: white;
+}
+
+button.verify3:link, button.verify3:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.verify3:hover, button.verify3:active {
+    background-color: red;
+    color: white;
+}
+
+button.verify4:link, button.verify4:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid blueviolet;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.verify4:hover, button.verify4:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+h2.name {color:red;}
+h2.year {color: goldenrod;}
 h2.height {color:brown;}
 h2.weight {color: green;}
 h2.age {color: blueviolet;}
 
 body {
     background-image: url("https://img.freepik.com/premium-photo/blank-old-paper-textured-background_53876-132629.jpg?w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border-radius: 12px;
+    display: block;
+    margin-right: 5px;
+    width: 100%;
+    height: 85%;
+}
+
+td.img {
+    width: 75%;
+    position: absolute;
+    right: 10px;
+    top: 170px;
+    bottom: 10px;
 }
